@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-labelledby="title desc">
+<title id="title">INDEXEXPRESS — Follow the evidence.</title><desc id="desc">INDEXEXPRESS — Follow the evidence.</desc>
+<defs>
+ <linearGradient id="night" x2="1" y2="1"><stop stop-color="#080e20"/><stop offset=".52" stop-color="#10172e"/><stop offset="1" stop-color="#1b1535"/></linearGradient>
+ <linearGradient id="silver" x2=".2" y2="1"><stop stop-color="#ffffff"/><stop offset=".55" stop-color="#dce5ff"/><stop offset="1" stop-color="#8398cc"/></linearGradient>
+ <linearGradient id="crystal" x2="1" y2="1"><stop stop-color="#d9edff"/><stop offset=".35" stop-color="#8ab8ff"/><stop offset=".7" stop-color="#8868e8"/><stop offset="1" stop-color="#413f81"/></linearGradient>
+ <linearGradient id="accent" x2="1"><stop stop-color="#76cbff"/><stop offset=".5" stop-color="#a594ff"/><stop offset="1" stop-color="#dda3ff"/></linearGradient>
+ <radialGradient id="nebula"><stop stop-color="#6452d2" stop-opacity=".34"/><stop offset="1" stop-color="#6452d2" stop-opacity="0"/></radialGradient>
+ <radialGradient id="blue-nebula"><stop stop-color="#387fd1" stop-opacity=".23"/><stop offset="1" stop-color="#387fd1" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:'Courier New',monospace}
+ .twinkle{animation:twinkle 5s ease-in-out infinite alternate} .float{animation:float 7s ease-in-out infinite} .pulse{animation:pulse 6s ease-in-out infinite}
+ @keyframes twinkle{from{opacity:.25}to{opacity:1}} @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}} @keyframes pulse{0%,100%{opacity:.42}50%{opacity:.85}}
+ @media(prefers-reduced-motion:reduce){.twinkle,.float,.pulse{animation:none}}
+</style>
+<rect width="640" height="300" rx="14" fill="url(#night)"/><rect x=".75" y=".75" width="638.5" height="298.5" rx="14" fill="none" stroke="#9eabdf" stroke-opacity=".22"/><path d="M1 35V265" stroke="url(#accent)" stroke-width="3"/><text x="30" y="35" class="mono" fill="#a7a5d7" font-size="13" letter-spacing="2">03 / SOURCE-CITED WEB RESEARCH</text><text x="30" y="87" fill="#e8edff" font-size="35" font-weight="700">INDEXEXPRESS</text><text x="30" y="125" fill="#a5b9e3" font-size="22">Follow the evidence.</text><text x="30" y="267" class="mono" fill="#95a6c6" font-size="13">PYTHON  /  MCP  /  SEARXNG</text><g transform="translate(500 208) scale(.65)"><circle r="98" fill="url(#nebula)"/><path d="M-64 -48L8 -68" stroke="#94a5ed" stroke-width="1.5" stroke-opacity=".42"/><path d="M8 -68L63 -19" stroke="#94a5ed" stroke-width="1.5" stroke-opacity=".42"/><path d="M63 -19L40 58" stroke="#94a5ed" stroke-width="1.5" stroke-opacity=".42"/><path d="M40 58L-37 73" stroke="#94a5ed" stroke-width="1.5" stroke-opacity=".42"/><path d="M-37 73L-64 -48" stroke="#94a5ed" stroke-width="1.5" stroke-opacity=".42"/><path d="M-64 -48L0 0" stroke="#94a5ed" stroke-width="1.5" stroke-opacity=".42"/><path d="M0 0L8 -68" stroke="#94a5ed" stroke-width="1.5" stroke-opacity=".42"/><path d="M0 0L63 -19" stroke="#94a5ed" stroke-width="1.5" stroke-opacity=".42"/><path d="M0 0L40 58" stroke="#94a5ed" stroke-width="1.5" stroke-opacity=".42"/><path d="M0 0L-37 73" stroke="#94a5ed" stroke-width="1.5" stroke-opacity=".42"/><circle cx="-64" cy="-48" r="6" fill="url(#crystal)"/><circle cx="8" cy="-68" r="6" fill="url(#crystal)"/><circle cx="63" cy="-19" r="6" fill="url(#crystal)"/><circle cx="40" cy="58" r="6" fill="url(#crystal)"/><circle cx="-37" cy="73" r="6" fill="url(#crystal)"/><circle r="23" fill="#151d39" stroke="#bbcaff" stroke-width="2"/><path d="M-7-7L7 7M7-7L-7 7" stroke="#c6d7ff" stroke-width="2"/><path d="M0 -8l4.0 8l-4.0 8l-4.0 -8Z" fill="url(#crystal)" opacity="0.7"/></g>
+</svg>

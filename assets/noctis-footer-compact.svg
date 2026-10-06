@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-labelledby="title desc">
+<title id="title">Keep building. Keep exploring.</title><desc id="desc">Keep building. Keep exploring.</desc>
+<defs>
+ <linearGradient id="night" x2="1" y2="1"><stop stop-color="#080e20"/><stop offset=".52" stop-color="#10172e"/><stop offset="1" stop-color="#1b1535"/></linearGradient>
+ <linearGradient id="silver" x2=".2" y2="1"><stop stop-color="#ffffff"/><stop offset=".55" stop-color="#dce5ff"/><stop offset="1" stop-color="#8398cc"/></linearGradient>
+ <linearGradient id="crystal" x2="1" y2="1"><stop stop-color="#d9edff"/><stop offset=".35" stop-color="#8ab8ff"/><stop offset=".7" stop-color="#8868e8"/><stop offset="1" stop-color="#413f81"/></linearGradient>
+ <linearGradient id="accent" x2="1"><stop stop-color="#76cbff"/><stop offset=".5" stop-color="#a594ff"/><stop offset="1" stop-color="#dda3ff"/></linearGradient>
+ <radialGradient id="nebula"><stop stop-color="#6452d2" stop-opacity=".34"/><stop offset="1" stop-color="#6452d2" stop-opacity="0"/></radialGradient>
+ <radialGradient id="blue-nebula"><stop stop-color="#387fd1" stop-opacity=".23"/><stop offset="1" stop-color="#387fd1" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:'Courier New',monospace}
+ .twinkle{animation:twinkle 5s ease-in-out infinite alternate} .float{animation:float 7s ease-in-out infinite} .pulse{animation:pulse 6s ease-in-out infinite}
+ @keyframes twinkle{from{opacity:.25}to{opacity:1}} @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}} @keyframes pulse{0%,100%{opacity:.42}50%{opacity:.85}}
+ @media(prefers-reduced-motion:reduce){.twinkle,.float,.pulse{animation:none}}
+</style>
+
+<path d="M0 55H207M433 55H640" stroke="#8c9ddb" stroke-opacity=".22"/>
+<g transform="translate(320 55)"><path d="M-78 0L0-32L78 0L0 32Z" fill="none" stroke="#9394d7" stroke-opacity=".5"/>
+<path d="M-78 0H78M0-32V32" stroke="#7c9fd5" stroke-opacity=".3"/>
+<path d="M0-20L11 0L0 20L-11 0Z" fill="url(#crystal)" class="pulse"/></g>
+<text x="320" y="123" text-anchor="middle" class="mono" font-size="17" letter-spacing="2" fill="#929ac1">KEEP BUILDING. KEEP EXPLORING.</text>
+</svg>

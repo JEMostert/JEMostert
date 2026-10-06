@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
+<title id="title">MODEL YARD — A home for local intelligence.</title><desc id="desc">MODEL YARD — A home for local intelligence.</desc>
+<defs>
+ <linearGradient id="night" x2="1" y2="1"><stop stop-color="#080e20"/><stop offset=".52" stop-color="#10172e"/><stop offset="1" stop-color="#1b1535"/></linearGradient>
+ <linearGradient id="silver" x2=".2" y2="1"><stop stop-color="#ffffff"/><stop offset=".55" stop-color="#dce5ff"/><stop offset="1" stop-color="#8398cc"/></linearGradient>
+ <linearGradient id="crystal" x2="1" y2="1"><stop stop-color="#d9edff"/><stop offset=".35" stop-color="#8ab8ff"/><stop offset=".7" stop-color="#8868e8"/><stop offset="1" stop-color="#413f81"/></linearGradient>
+ <linearGradient id="accent" x2="1"><stop stop-color="#76cbff"/><stop offset=".5" stop-color="#a594ff"/><stop offset="1" stop-color="#dda3ff"/></linearGradient>
+ <radialGradient id="nebula"><stop stop-color="#6452d2" stop-opacity=".34"/><stop offset="1" stop-color="#6452d2" stop-opacity="0"/></radialGradient>
+ <radialGradient id="blue-nebula"><stop stop-color="#387fd1" stop-opacity=".23"/><stop offset="1" stop-color="#387fd1" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif} .mono{font-family:'Courier New',monospace}
+ .twinkle{animation:twinkle 5s ease-in-out infinite alternate} .float{animation:float 7s ease-in-out infinite} .pulse{animation:pulse 6s ease-in-out infinite}
+ @keyframes twinkle{from{opacity:.25}to{opacity:1}} @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}} @keyframes pulse{0%,100%{opacity:.42}50%{opacity:.85}}
+ @media(prefers-reduced-motion:reduce){.twinkle,.float,.pulse{animation:none}}
+</style>
+<rect width="1200" height="210" rx="14" fill="url(#night)"/><rect x=".75" y=".75" width="1198.5" height="208.5" rx="14" fill="none" stroke="#9eabdf" stroke-opacity=".22"/><path d="M1 35V175" stroke="url(#accent)" stroke-width="3"/><text x="43" y="36" class="mono" fill="#a7a5d7" font-size="12" letter-spacing="2.3">04 / THE LOCAL OLLAMA WORKBENCH</text><text x="43" y="91" fill="#e8edff" font-size="36" font-weight="700" letter-spacing="1">MODEL YARD</text><text x="43" y="132" fill="#a5b9e3" font-size="27">A home for local intelligence.</text><text x="43" y="181" class="mono" fill="#95a6c6" font-size="12" letter-spacing="1">TAURI  /  RUST  /  REACT</text><path d="M872 35V175" stroke="#8a9ccb" stroke-opacity=".17"/><g transform="translate(1035 103) scale(.8)"><circle r="95" fill="url(#blue-nebula)"/>
+<rect x="-94" y="-65" width="188" height="123" rx="10" fill="#101b32" stroke="#83a4d2" stroke-width="1.5"/>
+<path d="M-94-40H94M-32-40V58" stroke="#7c97c0" stroke-opacity=".35"/>
+<circle cx="-79" cy="-53" r="3" fill="#bd9fe7"/><circle cx="-68" cy="-53" r="3" fill="#a4bbec"/><circle cx="-57" cy="-53" r="3" fill="#90ccd7"/>
+<path d="M-77-20H-46M-77-2H-52M-77 16H-43M-77 34H-58" stroke="#7c93b9" stroke-width="4" stroke-linecap="round"/>
+<g class="pulse"><path d="M25-21L54-5V27L25 43L-4 27V-5Z" fill="none" stroke="url(#accent)" stroke-width="2"/><path d="M25-21V10M-4-5L25 10L54-5M25 10V43" fill="none" stroke="url(#accent)" stroke-width="1.5"/></g>
+<path d="M-44 77H44M-22 58V76M22 58V76" stroke="#788ebc" stroke-width="2"/></g>
+</svg>
